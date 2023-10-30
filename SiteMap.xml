@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://willowsgamesstudios.github.io/</loc>
+      <lastmod>2023-04-14</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://willowsgamesstudios.github.io/index.html</loc>
+      <lastmod>2023-04-14</lastmod>
+      <priority>0.8</priority>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://willowsgamesstudios.github.io/About.html</loc>
+      <lastmod>2023-04-14</lastmod>
+      <priority>0.8</priority>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://willowsgamesstudios.github.io/Download.html</loc>
+      <lastmod>2023-04-14</lastmod>
+      <priority>0.8</priority>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://willowsgamesstudios.github.io/Games.html</loc>
+      <lastmod>2023-04-14</lastmod>
+      <priority>0.8</priority>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://willowsgamesstudios.github.io/Tuto.html</loc>
+      <lastmod>2023-04-14</lastmod>
+      <priority>0.8</priority>
+      <changefreq>weekly</changefreq>
+   </url>
+</urlset>
+
+<!-- SiteMap Pour Willows Games Studios WebSite -->
