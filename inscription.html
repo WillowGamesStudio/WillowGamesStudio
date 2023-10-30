@@ -6,14 +6,14 @@
     @Date-de-modification : 11/10/2023
     @Date-de-publication : 11/10/2023
 
-    @description : Page principale et d'acceuil du site, avec présentation rapide de l'application.
+    @description : Page d'inscription et de création d'un compte utilisateur.
 -->
 <!DOCTYPE html>
 <!-- Cette ligne définit le type de document comme étant un document HTML5 en français -->
 <html lang="fr">
     <!-- La section d'en-tête contient les métadonnées et le titre de la page -->
-    <head> 
-        <title>SportTrack - Hub</title>
+    <head>
+        <title>SportTrack - Inscription</title>
         <!-- Les balises meta fournissent des informations supplémentaires sur la page -->
         <meta charset="UTF-8">
         <!-- Balise meta pour la catégorie de la page -->
@@ -35,40 +35,38 @@
         <!-- Lien vers un fichier JavaScript pour la gestion du mode sombre et clair -->
         <script src="Assets/Js/CssMod.js"></script>
         <!-- Le titre de la page avec un lien vers la page d'accueil et le logo-->
-        <h1><a href="index.html"><img src="Assets/Img/icons8-track-and-field-skin-type-3-100.png" alt="" width="90" height="90"></a>SportTrack - Hub</h1>
+        <h1><a href="index.html"><img src="Assets/Img/icons8-track-and-field-skin-type-3-100.png" alt="" width="90" height="90"></a>SportTrack - Inscription</h1>
         <!-- Boutons de navigation en haut de la page -->
         <div class="buttonHeader">
             <button class="button" onclick="window.location.href='connexion.html';">Connexion</button> 
-            <button class="button" onclick="window.location.href='inscription.html';">Inscription</button>
+            <button class="button" onclick="window.location.href='index.html';">Hub</button>
             <button class="button" onclick="window.location.href='mention.html';">Crédits et mentions</button>
         </div>
     </head>
     <!-- Le corps de la page contient le contenu principal -->
     <body>
         <div class="textBox">
-            <h2>Application d'analyse de données sportive</h2>
-            <!-- Description de l'application -->
-            <h3>L'application</h3>
-            <p>SportTrack est une application innovante conçue pour les passionnés de sport et les athlètes <br>
-                qui souhaitent analyser et optimiser leurs performances sportives. Cette application offre une <br>
-                solution complète pour recueillir, organiser et tirer des insights précieux à partir de données <br>
-                sportives stockées dans des fichiers au format JSON.</p>
-            <!-- Description de l'importation et de l'exploitation des données en 3 paragraphe-->
-            <h3>Les données</h3>
-            <p>SportTrack permet aux utilisateurs d'importer facilement des fichiers JSON contenant leurs données <br>
-                sportives. Que vous utilisiez un tracker de fitness, une montre connectée ou une autre source de <br>
-                données, SportTrack vous permet de centraliser toutes vos informations en un seul endroit.</p>
-            <br>
-            <p>Une fois les données importées, SportTrack offre des outils d'analyse intelligents pour extraire <br>
-                des informations clés. L'application peut identifier des tendances, des corrélations et des <br>
-                performances remarquables dans vos données sportives.</p>
-            <br>
-            <p>Basé sur l'analyse de vos données sportives, SportTrack génère des recommandations et des conseils <br>
-                personnalisés pour vous aider à atteindre vos objectifs sportifs. Que ce soit pour améliorer <br>
-                votre endurance, augmenter votre vitesse, ou atteindre un certain niveau de forme physique, SportTrack <br>
-                est là pour vous guider.</p>
+            <h2>Inscription</h2>
+            <!-- Formulaire d'inscription avec des inputs -->
+            <form class="centre">
+                <h3>Nom<input type="text" id="nom" name="user_name" required/></h3>
+                <h3>Prénom<input type="text" id="prenom" name="user_name" required/></h3>
+                <h3>Date de naissance<input type="date" id="ddn" name="user_name" required/></h3>
+                <!-- Choix entre Homme et Femme -->
+                <fieldset>
+                    <input type="radio" id="homme" name="user_name" />
+                    <label for="homme">Homme</label>
+                    <input type="radio" id="femme" name="user_name" />
+                    <label for="femme">Femme</label>
+                </fieldset>
+                <h3>Taille (cm)<input type="number" id="taille" name="user_name"/></h3>
+                <h3>Poids<input type="number" id="poids" name="user_name"/></h3>
+                <h3>E-mail<input type="email" id="email" name="user_name" required pattern="@"/></h3>
+                <h3>Mot de passe<input type="password" id="mdp" name="user_name" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}$"></h3>
+                <input type="submit" class="button" onclick="window.location.href='compte.html';">
+            </form>
         </div>
-       <br><br><br>
+        <br><br><br>
     </body>
     <!-- La section de pied de page contient des informations sur les droits d'auteur et les réseaux du site-->
     <footer>
